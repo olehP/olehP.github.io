@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>My Natera - Patient Portal</title>
+
+    <!-- Bootstrap CSS and JS from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.min.js" ></script>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="My Natera">
+
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/connect-public-resources/font-awesome/v5.7.2/css/all.css">
+
+    <!-- end bootstrap coming from the CDN -->
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-8e47e6be9a5ab42f0c72495e57bde595184b723fc41ae9b42d14a6dd5c59c952.css" data-turbolinks-track="true" />
+    
+
+<script type="text/javascript">
+    window.geo = {
+        geo_country: 'UA',
+        is_eu_country: true
+    }
+</script>
+
+
+    <!--[if IE 8]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.6/ie8.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/excanvas.js"></script>
+    <![endif]-->
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1DtiYyP//wMNzM97sMdVPWJjHNctZOjVMTrW5MA6ztrbk/CKzjBvT1dPmykRcdKzXNxpmYM3ftTkjaT+4cdu9g==" />
+</head>
+<body class="controller-pages action-homepage ">
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-natera navbar-static-top main-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+  <a class="navbar-brand navbar-image-link" href="/">
+    <img class="navbar-image" src="/assets/logos/natera_logo-f466eae4e717a6e2047f107b07fde6f9dc6651358ce88259eaf5d3e8c7450f8f.gif" alt="Natera logo" />
+  </a>
+</div>
+
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+  <div class="hidden-xs hidden-sm display-block-md display-block-lg">
+    <a class="btn btn-primary text-center navbar-login-button navbar-right" href="/users/sign_in">Sign In</a>
+  </div>
+
+  <div class="display-block-xs display-block-sm hidden-md hidden-lg">
+      <a class="btn btn-primary text-center navbar-login-button-mobile navbar-right" href="/users/sign_in">Sign In</a>
+  </div>
+
+
+      <ul class="nav navbar-nav navbar-right">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      Products &amp; Services<span class="caret"></span>
+    </a>
+
+    <ul class="dropdown-menu">
+      <li><a title="Genetic Testing" href="/services/request_test">Genetic Testing</a></li>
+        <li><a title="Register a Test Kit" href="/results">Register a Test Kit</a></li>
+      <li><a title="Submit a Blood Sample" href="/services/blood_draw">Submit a Blood Sample</a></li>
+      <li><a title="Genetic Information Sessions" href="/services/genetic_information">Genetic Information Sessions</a></li>
+      <li><a target="_blank" title="Cord Blood Banking" href="http://www.evercord.com?utm_source=patientportal&amp;utm_medium=menu&amp;utm_campaign=patient_services_menu_07_17">Cord Blood Banking</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      Pricing &amp; Billing<span class="caret"></span>
+    </a>
+
+    <ul class="dropdown-menu">
+      <li><a title="For Genetic Testing" href="/pricing/genetic_testing">For Genetic Testing</a></li>
+      <li><a target="_blank" title="For Cord Blood Banking" href="/evercord/enroll">For Cord Blood Banking</a></li>
+      <li><a target="_blank" title="Pay My Bill" href="https://pay.natera.com">Pay My Bill</a></li>
+    </ul>
+  </li>
+
+  <li><a data-toggle="modal" data-target="#contact-modal" href="#contact-modal"><span class="fa fa-comments fa-fw navicons"></span>Contact
+</a></li>
+</ul>
+
+
+
+    </div>
+  </div>
+</nav>
+
+
+        <div id="main">
+            
+
+
+<section class="jumbotron " style="background-image: url(/assets/heroes/homepage_hero-72c0dacf25a116f71eae8017750390b1bef494978c354193045dd2862248a75c.png);">
+    <div class="jumbotron-overlay">
+      <h1>Conceive. Deliver.<br />Thrive.
+</h1>
+
+        <p>
+          <a href="/users/sign_up" target="_self" class="btn btn-primary btn-outline-only-white">
+            Create an Account
+          </a>
+        </p>
+
+        <p><a href="/users/sign_in" class="jumbotron_link">Sign in</a></p>
+  </div>
+</section>
+
+
+<section class="page-row">
+  <div class="container text-center">
+      <div class="display-block-lg hidden-md hidden-sm hidden-xs">
+    <div class="page-row page-row-icon-list">
+      <div class="logo-icon-list">
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/horizon-carrier-screen?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_horizon_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/horizon-logo-icon-37220f96e9f04e4656ac5430f066fa653fdf36d92e28354ba30669985b8b094b.gif" alt="Horizon logo icon" /> <span class="logo-icon-list__content product-header">Horizon</span><span class="logo-icon-list__content product-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Advanced carrier<br />screening</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/panorama-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_panorama_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/panorama-logo-icon-e2fe266e52938b2cba91983106c77fe56b2c458f7744988177a07f7f6a01e485.gif" alt="Panorama logo icon" /> <span class="logo-icon-list__content product-header">Panorama</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Next-generation<br />NIPT</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/spectrum-pgs-pgd?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_spectrum_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/spectrum-logo-icon-7f49d78f70143029af3b2e2ca463e4a9601ccff72b2222728011fb8b1ffb5e30.gif" alt="Spectrum logo icon" /> <span class="logo-icon-list__content product-header">Spectrum</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Preimplantation<br />genetics</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/anora-miscarriage-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_anora_07_27">
+            <img class="logo-icon-list__icon" src="/assets/logos/anora-logo-icon-c4b0ea3f4a1566bae0896e18b06202605abf5e0d7b158746d446188cfcd4f494.gif" alt="Anora logo icon" /> <span class="logo-icon-list__content product-header">Anora</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Miscarriage<br />test (POC)</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="http://www.evercord.com/?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_evercord_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/evercord-logo-icon-7b5c8599c7deb6b25639a79af9126cf2842fe89aa9d3435d1ca766d0aebd783a.gif" alt="Evercord logo icon" /> <span class="logo-icon-list__content product-header">Evercord</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Newborn stem<br />cell banking</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/vistara?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/vistara-logo-icon-cdc800360f34113d7d94085f8d9fb30d3a64c684e1f681cfc94fdfe91b9af054.gif" alt="Vistara logo icon" /> <span class="logo-icon-list__content product-header">Vistara</span><br /><span class="logo-icon-list__content product-tagline">Single-gene<br />NIPT</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/signatera?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/signatera-logo-icon-d15a72e88b90af063d9f449854d8e8e81ae031941f4c8a1769ee4627cdb61460.gif" alt="Signatera logo icon" /> <span class="logo-icon-list__content product-header">Signatera</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Research use<br />only</span>
+</a>        </span>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="display-block-md display-block-sm hidden-lg hidden-xs">
+    <div class="page-row page-row-icon-list">
+      <div class="logo-icon-list">
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/horizon-carrier-screen?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_horizon_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/horizon-logo-icon-37220f96e9f04e4656ac5430f066fa653fdf36d92e28354ba30669985b8b094b.gif" alt="Horizon logo icon" /> <span class="logo-icon-list__content product-header">Horizon</span><span class="logo-icon-list__content product-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Advanced carrier<br />screening</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/panorama-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_panorama_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/panorama-logo-icon-e2fe266e52938b2cba91983106c77fe56b2c458f7744988177a07f7f6a01e485.gif" alt="Panorama logo icon" /> <span class="logo-icon-list__content product-header">Panorama</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Next-generation<br />NIPT</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/spectrum-pgs-pgd?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_spectrum_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/spectrum-logo-icon-7f49d78f70143029af3b2e2ca463e4a9601ccff72b2222728011fb8b1ffb5e30.gif" alt="Spectrum logo icon" /> <span class="logo-icon-list__content product-header">Spectrum</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Preimplantation<br />genetics</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/anora-miscarriage-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_anora_07_27">
+            <img class="logo-icon-list__icon" src="/assets/logos/anora-logo-icon-c4b0ea3f4a1566bae0896e18b06202605abf5e0d7b158746d446188cfcd4f494.gif" alt="Anora logo icon" /> <span class="logo-icon-list__content product-header">Anora</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Miscarriage<br />test (POC)</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="http://www.evercord.com/?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_evercord_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/evercord-logo-icon-7b5c8599c7deb6b25639a79af9126cf2842fe89aa9d3435d1ca766d0aebd783a.gif" alt="Evercord logo icon" /> <span class="logo-icon-list__content product-header">Evercord</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Newborn stem<br />cell banking</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/vistara?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/vistara-logo-icon-cdc800360f34113d7d94085f8d9fb30d3a64c684e1f681cfc94fdfe91b9af054.gif" alt="Vistara logo icon" /> <span class="logo-icon-list__content product-header">Vistara</span><br /><span class="logo-icon-list__content product-tagline">Single-gene<br />NIPT</span>
+</a>        </span>
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/signatera?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/signatera-logo-icon-d15a72e88b90af063d9f449854d8e8e81ae031941f4c8a1769ee4627cdb61460.gif" alt="Signatera logo icon" /> <span class="logo-icon-list__content product-header">Signatera</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Research use<br />only</span>
+</a>        </span>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="display-block-xs hidden-lg hidden-md hidden-sm">
+    <div class="page-row page-row-icon-list">
+      <div class="logo-icon-list small">
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/horizon-carrier-screen?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_horizon_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/horizon-logo-icon-37220f96e9f04e4656ac5430f066fa653fdf36d92e28354ba30669985b8b094b.gif" alt="Horizon logo icon" /> <span class="logo-icon-list__content product-header">Horizon</span><span class="logo-icon-list__content product-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Advanced carrier<br />screening</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/panorama-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_panorama_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/panorama-logo-icon-e2fe266e52938b2cba91983106c77fe56b2c458f7744988177a07f7f6a01e485.gif" alt="Panorama logo icon" /> <span class="logo-icon-list__content product-header">Panorama</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Next-generation<br />NIPT</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/spectrum-pgs-pgd?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_spectrum_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/spectrum-logo-icon-7f49d78f70143029af3b2e2ca463e4a9601ccff72b2222728011fb8b1ffb5e30.gif" alt="Spectrum logo icon" /> <span class="logo-icon-list__content product-header">Spectrum</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Preimplantation<br />genetics</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/anora-miscarriage-test?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_anora_07_27">
+            <img class="logo-icon-list__icon" src="/assets/logos/anora-logo-icon-c4b0ea3f4a1566bae0896e18b06202605abf5e0d7b158746d446188cfcd4f494.gif" alt="Anora logo icon" /> <span class="logo-icon-list__content product-header">Anora</span><span class="logo-icon-list__content product-mark r-mark">&reg;</span><br /><span class="logo-icon-list__content product-tagline">Miscarriage<br />test (POC)</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="http://www.evercord.com/?utm_source=patientportal&amp;utm_medium=weblink&amp;utm_campaign=logo_bar_evercord_07_17">
+            <img class="logo-icon-list__icon" src="/assets/logos/evercord-logo-icon-7b5c8599c7deb6b25639a79af9126cf2842fe89aa9d3435d1ca766d0aebd783a.gif" alt="Evercord logo icon" /> <span class="logo-icon-list__content product-header">Evercord</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Newborn stem<br />cell banking</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/vistara?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/vistara-logo-icon-cdc800360f34113d7d94085f8d9fb30d3a64c684e1f681cfc94fdfe91b9af054.gif" alt="Vistara logo icon" /> <span class="logo-icon-list__content product-header">Vistara</span><br /><span class="logo-icon-list__content product-tagline">Single-gene<br />NIPT</span>
+</a>        </span>
+
+        <br /><br /><br />
+
+        <span class="logo-icon-list__content">
+          <a target="_blank" href="https://www.natera.com/signatera?utm_source=patientportal&amp;utm_medium=weblink">
+            <img class="logo-icon-list__icon" src="/assets/logos/signatera-logo-icon-d15a72e88b90af063d9f449854d8e8e81ae031941f4c8a1769ee4627cdb61460.gif" alt="Signatera logo icon" /> <span class="logo-icon-list__content product-header">Signatera</span><span class="logo-icon-list__content product-mark r-mark"><sup>TM</sup></span><br /><span class="logo-icon-list__content product-tagline">Research use<br />only</span>
+</a>        </span>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+</section>
+
+
+
+
+        </div>
+
+        
+<footer class="footer footer-natera">
+    <div class="container container-narrow">
+
+        <div class="hidden-md hidden-lg hidden-xl">
+            <ul class="list-inline small">
+                <li>
+    <a target="_blank" href="http://www.natera.com/panorama-test">Panorama</a>
+</li>
+<li>
+    <a target="_blank" href="http://www.natera.com/horizon-carrier-screen">Horizon</a>
+</li>
+<li>
+    <a target="_blank" href="http://www.natera.com/anora-miscarriage-test">Anora</a>
+</li>
+<li>
+    <a target="_blank" href="http://www.natera.com/spectrum-pgs-pgd">Spectrum</a>
+</li>
+
+            </ul>
+
+            <hr>
+        </div>
+
+        <small>
+            <p>&copy; 2019 Natera, Inc. The test described has been developed and its performance characteristics determined by the CLIA-certified laboratory performing the test. This test has not been cleared or approved by the U.S. Food and Drug Administration (FDA). Although FDA does not currently clear or approve laboratory-developed tests in the U.S., certification of the laboratory is required under CLIA to ensure the quality and validity of the tests.</p>
+<p>The choice to use cord blood stem cells will depend on a variety of factors – only a physician can determine when cord blood stem cells should be used, on a case by case basis. Many of the conditions currently treated with cord blood stem cells are genetic diseases. There is no guarantee that your physician will choose stem cell transplant over other courses of treatment. Unlike cord blood, there are currently no proven treatments using cord tissue stem cells.</p>
+
+        </small>
+
+        <hr>
+
+        <ul class="list-inline small">
+            <li><a target="_blank" href="http://www.natera.com/">Natera.com</a></li>
+            <li><a target="_blank" href="https://www.natera.com/privacy-policy">Privacy Policy</a></li>
+            <li><a target="_blank" href="https://www.natera.com/terms-use">Terms of Use</a></li>
+            <li><a target="_blank" href="http://www.natera.com/notice-privacy-practices">Notice of Privacy Practices</a></li>
+            <li><a target="_blank" href="http://www.natera.com/licenses">Licenses</a></li>
+        </ul>
+    </div>
+</footer>
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="contact-title">Contact Us</h2>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="hidden-xs display-block-lg display-block-md display-block-sm">
+                  <div class="col-sm-7">
+                      <form role="form" action="/contact/contacts" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aedtraEbSPS5xMjzRb8jCD2a53gEWPmCqzE34s2vW7lmT/9ETNTYuONHnKHkCaSGAyWSNqoLb4N+hkX47FL7lQ==" />
+    
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group"><label class="control-label" for="first_name">First name</label><input placeholder="First name" required="required" class="form-control" name="first_name" id="first_name" type="text" /></div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group"><label class="control-label" for="last_name">Last name</label><input placeholder="Last name" required="required" class="form-control" name="last_name" id="last_name" type="text" /></div>
+        </div>
+    </div>
+
+    <div class="form-group"><label class="control-label" for="email">Email</label><input placeholder="Email" required="required" class="form-control" name="email" id="email" type="email" /></div>
+    <div class="form-group"><label class="control-label" for="point_of_contact">Reason for Contact</label><select class="form-control" name="[point_of_contact]" id="_point_of_contact"><option value="support">General Inquiry</option>
+<option value="insbilling">Billing</option></select></div>
+    <div class="form-group"><label class="control-label" for="questions">Questions or Comments</label><textarea placeholder="Your message..." required="required" class="form-control" name="questions" id="questions">
+</textarea></div>
+
+    <input type="hidden" name="healthcare_provider" id="healthcare_provider" value="No" />
+
+    <div class="form-group text-center">
+        <input type="submit" name="commit" value="Submit" class="btn btn-primary btn-full" />
+</div></form>
+                  </div>
+                  <div class="col-sm-5">
+                       <div class="hidden-xs display-block-lg display-block-md display-block-sm">
+  <ul class="fancy-list">
+    <li>
+        <strong>General Questions</strong><br/>
+        <span class="fa fa-phone-square" style="font-size: 18px;"></span> 844-778-4700<br/>
+        <span class="fa fa-envelope"></span> <a href="mailto: support@natera.com">support@natera.com</a>
+    </li>
+
+    <li>
+      <strong>Billing Information</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> 877-869-3052<br/>
+      <span class="fa fa-fax"></span>  650-456-2122 (fax)
+    </li>
+
+    <li>
+      <strong>Cord Blood Banking</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> 844-243-5211<br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: info@natera.com">info@natera.com</a>
+    </li>
+  </ul>
+</div>
+
+<div class="hidden-lg hidden-md hidden-sm display-block-xs">
+  <ul class="fancy-list">
+    <li>
+      <strong>General Questions</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:844-778-4700">844-778-4700</a><br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: support@natera.com">support@natera.com</a>
+    </li>
+
+    <li>
+      <strong>Billing Information</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:877-869-3052">877-869-3052</a><br/>
+      <span class="fa fa-fax"></span>  650-456-2122 (fax)
+    </li>
+
+    <li>
+      <strong>Cord Blood Banking</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:844-243-5211">844-243-5211</a><br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: info@natera.com">info@natera.com</a>
+    </li>
+  </ul>
+</div>
+
+
+                  </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm display-block-xs">
+                  <div class="col-sm-5">
+                    <div class="hidden-xs display-block-lg display-block-md display-block-sm">
+  <ul class="fancy-list">
+    <li>
+        <strong>General Questions</strong><br/>
+        <span class="fa fa-phone-square" style="font-size: 18px;"></span> 844-778-4700<br/>
+        <span class="fa fa-envelope"></span> <a href="mailto: support@natera.com">support@natera.com</a>
+    </li>
+
+    <li>
+      <strong>Billing Information</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> 877-869-3052<br/>
+      <span class="fa fa-fax"></span>  650-456-2122 (fax)
+    </li>
+
+    <li>
+      <strong>Cord Blood Banking</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> 844-243-5211<br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: info@natera.com">info@natera.com</a>
+    </li>
+  </ul>
+</div>
+
+<div class="hidden-lg hidden-md hidden-sm display-block-xs">
+  <ul class="fancy-list">
+    <li>
+      <strong>General Questions</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:844-778-4700">844-778-4700</a><br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: support@natera.com">support@natera.com</a>
+    </li>
+
+    <li>
+      <strong>Billing Information</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:877-869-3052">877-869-3052</a><br/>
+      <span class="fa fa-fax"></span>  650-456-2122 (fax)
+    </li>
+
+    <li>
+      <strong>Cord Blood Banking</strong><br/>
+      <span class="fa fa-phone-square" style="font-size: 18px;"></span> <a href="tel:844-243-5211">844-243-5211</a><br/>
+      <span class="fa fa-envelope"></span> <a href="mailto: info@natera.com">info@natera.com</a>
+    </li>
+  </ul>
+</div>
+
+
+                  </div>
+                  <div class="col-sm-7">
+                    <form role="form" action="/contact/contacts" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="APs8QJmQnFu6xfevL54wnRiDbS2XFn03ukHid/DV6koPU66pdF8MF+BGo/2OKLcTJjwYYzlF6zZv9pBt0ShKZg==" />
+    
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group"><label class="control-label" for="first_name">First name</label><input placeholder="First name" required="required" class="form-control" name="first_name" id="first_name" type="text" /></div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group"><label class="control-label" for="last_name">Last name</label><input placeholder="Last name" required="required" class="form-control" name="last_name" id="last_name" type="text" /></div>
+        </div>
+    </div>
+
+    <div class="form-group"><label class="control-label" for="email">Email</label><input placeholder="Email" required="required" class="form-control" name="email" id="email" type="email" /></div>
+    <div class="form-group"><label class="control-label" for="point_of_contact">Reason for Contact</label><select class="form-control" name="[point_of_contact]" id="_point_of_contact"><option value="support">General Inquiry</option>
+<option value="insbilling">Billing</option></select></div>
+    <div class="form-group"><label class="control-label" for="questions">Questions or Comments</label><textarea placeholder="Your message..." required="required" class="form-control" name="questions" id="questions">
+</textarea></div>
+
+    <input type="hidden" name="healthcare_provider" id="healthcare_provider" value="No" />
+
+    <div class="form-group text-center">
+        <input type="submit" name="commit" value="Submit" class="btn btn-primary btn-full" />
+</div></form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        
+        
+    </div>
+
+    <script src="/assets/application-958f449d8541ee7a3604968a43f341cf7606154ff045afb0768ad3d77bdb231a.js" data-turbolinks-track="true"></script>
+    <!-- Qualaroo for natera.com -->
+<!-- Paste this code right after the <body> tag on every page of your site. -->
+
+
+
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 710211019187244);
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=710211019187244&ev=PageView&noscript=1"/>
+    </noscript>
+
+
+    
+    
+</body>
+</html>
