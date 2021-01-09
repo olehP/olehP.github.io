@@ -10,7 +10,19 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+      
+.owl-carousel .owl-wrapper {
+    display: flex !important;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-width: initial;
+    max-height: 400px;
+}
+      </style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -292,101 +304,93 @@
         </div>
         <div class="container container-custom-right">
           <!-- Owl Carousel-->
-          <div class="owl-carousel owl-carousel-classic" data-items="1" data-sm-items="1" data-md-items="2" data-lg-items="3" data-xl-items="3" data-xxl-items="3" data-nav="true" data-loop="true" data-margin="30" data-mouse-drag="false" data-center="true" data-autoplay="true">
-            <div class="post-classic">
-              <div class="post-classic-figure">
-                  <iframe src="portfolio/first.html" width="494" height="330px" style="
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: middle;" ></iframe>
+          <div class="owl-carousel owl-carousel-classic" data-items="1" data-sm-items="1" data-md-items="2" data-lg-items="3" data-xl-items="3" data-xxl-items="3" data-nav="true" data-loop="true" data-margin="30" data-mouse-drag="false" data-center="true" data-autoplay="true" >
+            <div class="post-classic" >
+              <div class="post-classic-figure"><img src="images/1.jpg" alt="" />
               </div>
-              <h4 class="post-classic-title"><a target="_blank" href="portfolio/first.html">Modern Loft Room</a></h4>
-              <ul class="post-classic-description">
-                <li>2018</li>
-                <li>Residential</li>
-                <li>New York</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-06-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/2.jpg" alt="" />
               </div>
-              <h4 class="post-classic-title"><a href="#">Sunny Valley Hotel</a></h4>
-              <ul class="post-classic-description">
-                <li>2017</li>
-                <li>Custom Project</li>
-                <li>Los Angeles </li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-07-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/3.jpg" alt=""/>
               </div>
-              <h4 class="post-classic-title"><a href="#">Swanson Entertainment Center</a></h4>
-              <ul class="post-classic-description">
-                <li>2016</li>
-                <li>Commercial</li>
-                <li>Seattle</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-08-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/4.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">Jane McMillan’s House</a></h4>
-              <ul class="post-classic-description">
-                <li>2015</li>
-                <li>Residential</li>
-                <li>Atlanta</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-09-494x400.jpg" alt="" width="494" height="400"/>
+
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/5.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">Divine Concert Hall</a></h4>
-              <ul class="post-classic-description">
-                <li>2015</li>
-                <li>Commercial</li>
-                <li>Sacramento </li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-10-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/6.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">Barracuda Restaurant</a></h4>
-              <ul class="post-classic-description">
-                <li>2014</li>
-                <li>Custom Project</li>
-                <li>Chicago</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-11-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/7.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">GMD Travel Agency</a></h4>
-              <ul class="post-classic-description">
-                <li>2014</li>
-                <li>Commercial</li>
-                <li>Dallas</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-12-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/8.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">Social Support Center</a></h4>
-              <ul class="post-classic-description">
-                <li>2013</li>
-                <li>Custom Project</li>
-                <li>San Diego</li>
-              </ul>
             </div>
-            <div class="post-classic">
-              <div class="post-classic-figure"><img src="images/home-13-494x400.jpg" alt="" width="494" height="400"/>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/9.jpg" alt=""  />
               </div>
-              <h4 class="post-classic-title"><a href="#">Boston Airport</a></h4>
-              <ul class="post-classic-description">
-                <li>2013</li>
-                <li>Commercial</li>
-                <li>Boston</li>
-              </ul>
             </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/10.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/11.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/12.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/1.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/13.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/14.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/15.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/16.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/17.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/18.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/19.jpg" alt=""  />
+              </div>
+            </div>
+              <div class="post-classic">
+              <div class="post-classic-figure"><img src="images/20.jpg" alt=""  />
+              </div>
+            </div>
+              
           </div>
         </div>
       </section>
