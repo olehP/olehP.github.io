@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.0.2" start="node1" apprev="17253">
+  <panorama id="node1">
+    <input overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="33.64" tilt="-11.46" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="06.05.2020 10:06" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node2}" id="Point01" pan="-0.93" title="" skinid="ht_node" tilt="-12.37"/>
+      <hotspot description="" target="" url="{node3}" id="Point02" pan="-3.2" title="" skinid="ht_node" tilt="-7.27"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-37.19" tilt="-4.43" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="07.05.2020 9:34" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node4}" id="Point01" pan="-82.27" title="" skinid="ht_node" tilt="17.74"/>
+      <hotspot description="" target="" url="{node1}" id="Point02" pan="-184.8" title="" skinid="ht_node" tilt="-11.03"/>
+      <hotspot description="" target="" url="{node3}" id="Point03" pan="-10.64" title="" skinid="ht_node" tilt="-16.28"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="65.46" tilt="-5.19" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="06.05.2020 20:24" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node2}" id="Point01" pan="-193.23" title="" skinid="ht_node" tilt="-15.22"/>
+      <hotspot description="" target="" url="{node1}" id="Point02" pan="-188.36" title="" skinid="ht_node" tilt="-6.83"/>
+      <hotspot description="" target="" url="{node4}" id="Point03" pan="-180.5" title="" skinid="ht_node" tilt="13.46"/>
+    </hotspots>
+    <media>
+      <lensflare blinding="20" color="0xffffff" type="2" id="Lensflare01" pan="-310.57" tilt="7.31" alpha="80"/>
+    </media>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-127.54" tilt="-18.06" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="07.05.2020 7:45" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node5}" id="Point01" pan="-265.54" title="" skinid="ht_node" tilt="-30.22"/>
+      <hotspot description="" target="" url="{node2}" id="Point02" pan="-78.62" title="" skinid="ht_node" tilt="-29.91"/>
+      <hotspot description="" target="" url="{node6}" id="Point03" pan="-36.8" title="" skinid="ht_node" tilt="-16.29"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-39.89" tilt="-6.44" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="07.05.2020 18:31" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node4}" id="Point01" pan="-31.7" title="" skinid="ht_node" tilt="-16.68"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-36.53" tilt="-3.91" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="08.05.2020 1:24" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node4}" id="Point01" pan="-221.81" title="" skinid="ht_node" tilt="-17.17"/>
+      <hotspot description="" target="" url="{node5}" id="Point02" pan="-231.78" title="" skinid="ht_node" tilt="-10.98"/>
+      <hotspot description="" target="" url="{node7}" id="Point03" pan="-338.05" title="" skinid="ht_node" tilt="-14.94"/>
+    </hotspots>
+    <media>
+      <lensflare blinding="20" color="0xffffff" type="2" id="Lensflare01" pan="-28.05" tilt="2.85" alpha="80"/>
+    </media>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <panorama id="node7">
+    <input overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="1500" height="1500" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level width="1500" height="1500" predecode="0" preload="0"/>
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" pan="-129.08" tilt="-1.81" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="08.05.2020 23:04" tags="371. Mapleton" info="" longitude="" title="" source="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" borderradius="1" bordercolor="0x000000" width="180" height="20" borderalpha="1" border="1" enabled="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot description="" target="" url="{node6}" id="Point01" pan="-91.91" title="" skinid="ht_node" tilt="-20.18"/>
+    </hotspots>
+    <media>
+      <lensflare blinding="20" color="0xffffff" type="2" id="Lensflare01" pan="-29.32" tilt="13.57" alpha="80"/>
+    </media>
+    <transition zoomspeed="2" blendtime="1" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0" rubberband="0" sensitivity="8" speedwheel="1"/>
+  </panorama>
+  <masternode>
+    <userdata description="" author="" comment="" copyright="" latitude="" datetime="" tags="" info="" longitude="" title="" source="" customnodeid=""/>
+  </masternode>
+</tour>

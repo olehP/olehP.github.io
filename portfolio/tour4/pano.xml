@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.0.2" apprev="17253">
+  <panorama id="node1">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="70.82" tilt="-2.77" pan="27.85"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 3:48" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-19.81" pan="-329.47" description="" id="Point01" title="" url="{node2}"/>
+      <hotspot skinid="ht_node" target="" tilt="-14.64" pan="-91.02" description="" id="Point02" title="" url="{node3}"/>
+      <hotspot skinid="ht_node" target="" tilt="-7.44" pan="-90.05" description="" id="Point03" title="" url="{node5}"/>
+      <hotspot skinid="ht_node" target="" tilt="-24.15" pan="-82.12" description="" id="Point04" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="77.54" tilt="-11.46" pan="49.14"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 8:27" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-21.65" pan="-146.94" description="" id="Point01" title="" url="{node1}"/>
+    </hotspots>
+    <media>
+      <lensflare blinding="20" type="2" tilt="9.18" pan="-2.15" color="0xffffff" id="Lensflare01" alpha="80"/>
+    </media>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="77.54" tilt="-4.9" pan="-50.95"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 10:01" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-15.92" pan="-89.1" description="" id="Point01" title="" url="{node5}"/>
+      <hotspot skinid="ht_node" target="" tilt="-19.9" pan="-2.19" description="" id="Point02" title="" url="{node6}"/>
+      <hotspot skinid="ht_node" target="" tilt="-30.93" pan="-283.12" description="" id="Point03" title="" url="{node4}"/>
+      <hotspot skinid="ht_node" target="" tilt="-16.1" pan="-268.83" description="" id="Point04" title="" url="{node1}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="77.54" tilt="-7.15" pan="69.69"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 12:02" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-45.94" pan="-53.35" description="" id="Point01" title="" url="{node3}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="85.53" tilt="-19.97" pan="-38.99"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 14:16" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-15.07" pan="-264.27" description="" id="Point01" title="" url="{node3}"/>
+      <hotspot skinid="ht_node" target="" tilt="-8.34" pan="-266.09" description="" id="Point02" title="" url="{node1}"/>
+    </hotspots>
+    <media>
+      <lensflare blinding="20" type="2" tilt="16.97" pan="-90.14" color="0xffffff" id="Lensflare01" alpha="80"/>
+    </media>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="85.53" tilt="-1.71" pan="-66.45"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 16:45" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-22.27" pan="-179.45" description="" id="Point01" title="" url="{node3}"/>
+      <hotspot skinid="ht_node" target="" tilt="-31.92" pan="-280.33" description="" id="Point02" title="" url="{node7}"/>
+      <hotspot skinid="ht_node" target="" tilt="-24.98" pan="-86.03" description="" id="Point03" title="" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node7">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="85.53" tilt="-7.71" pan="55.94"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 19:38" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-30.87" pan="-100.49" description="" id="Point01" title="" url="{node6}"/>
+      <hotspot skinid="ht_node" target="" tilt="-15.32" pan="-92.13" description="" id="Point02" title="" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node8">
+    <input levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="750" levelbias="0.400" height="750" levelingpitch="0" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="750" height="750" predecode="0" preload="0"/>
+      <level width="375" height="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="85.53" tilt="-21.19" pan="-61.77"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fov="120" scaletofit="1" tilt="90" pan="360" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata info="" comment="" datetime="23.12.2020 22:03" source="" copyright="" customnodeid="" description="" tags="457. Aftonshire condo (Unit 2С)" latitude="" author="" title="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundalpha="1" border="1" width="180" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" borderradius="1" bordercolor="0x000000" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-30.66" pan="-269.31" description="" id="Point01" title="" url="{node6}"/>
+      <hotspot skinid="ht_node" target="" tilt="-17.02" pan="-268.39" description="" id="Point02" title="" url="{node7}"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" type="crossdissolve" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" softedge="0" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" lockedkeyboard="0" invertcontrol="1" sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+  </panorama>
+  <masternode>
+    <userdata info="" comment="" datetime="" source="" copyright="" customnodeid="" description="" tags="" latitude="" author="" title="" longitude=""/>
+  </masternode>
+</tour>
