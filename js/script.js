@@ -58,6 +58,7 @@
 	}
     setTimeout(function () {
 						plugins.preloader.addClass('loaded');
+	    					windowReady = true;
 					}, 500 );
     
 	// Initialize scripts that require a loaded page
