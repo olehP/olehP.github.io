@@ -56,7 +56,10 @@
 		scrollHandler();
 		$window.on('scroll', scrollHandler);
 	}
-
+    setTimeout(function () {
+						plugins.preloader.addClass('loaded');
+					}, 500 );
+    
 	// Initialize scripts that require a loaded page
 	$window.on('load', function () {
 		// Page loader & Page transition
@@ -632,3 +635,5 @@
 		}
 	});
 }());
+
+
