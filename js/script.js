@@ -140,7 +140,9 @@
 
 			c.owlCarousel({
 				autoplay: isNoviBuilder ? false : c.attr("data-autoplay") === "true",
-				loop: isNoviBuilder ? false : c.attr("data-loop") !== "false",
+				//loop: isNoviBuilder ? false : c.attr("data-loop") !== "false",
+				loop: false,
+				rewind: true,
 				items: 1,
                                 autoWidth:true,
 				lazyLoad:true,
